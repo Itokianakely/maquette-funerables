@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif; 
 }
+
 /*FIRST SECTION*/
 .bandeau-bleu-fonce {
     background-color: #1c2b4b; 
@@ -149,7 +150,7 @@
 
 .sous-titre-centre {
     color: #666;
-    margin-bottom: 40px;
+    margin-bottom: 0;
 }
 
 .boite-des-3-cartes {
@@ -158,6 +159,7 @@
     gap: 50px;
     max-width: 1000px;
     margin: 0 auto;
+     margin-top: 50px; 
 }
 
 .carte-blanche {
@@ -204,9 +206,13 @@
 
 /*FIFTH SECTION*/
 .section-cremation-inhumation {
-    padding: 60px 20px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
     background-color:white;
     text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .texte-intro-haut {
@@ -222,18 +228,18 @@
     justify-content: center;
     gap: 30px;
     max-width: 1100px;
-    margin: 0 auto 30px auto;
+     margin-top: 50px; 
+    
 }
 
 .carte-horizontale {
     background-color: white;
-    border: 1px solid #e1e1e1;
+   
     border-radius: 5px;
     display: flex;
     flex: 1;
     overflow: hidden;
     text-align: left;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
 }
 
 .image-carte {
@@ -246,6 +252,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .contenu-carte h3 {
@@ -267,15 +274,17 @@
 /*SIXTH SECTION*/
 .section-service-sur-mesure {
     width: 100%;
-    padding: 80px 0px;
+    padding: 50px 50px;
     background-color: #f8f8f8;
+    gap: 50px;
+    margin-bottom: 60px;
 }
 
 .conteneur-flex-2 {
     display: flex;
     align-items: center;
     gap: 60px;
-    max-width: 1100px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -358,18 +367,102 @@
 }
 
 /*EIGHTH SECTION*/
-.rectangle-milieu {
-    border: 1px solid rgb(119, 114, 114);
-    display: flex;
-    align-items: flex-end;
-    width: 60%;
-    padding-top: 50px;
-    padding-right: 100px;
-    padding-bottom: 50px;
-    padding-left: 100px;
-    gap: 20px;
-    angle: 0 deg;
-    opacity: 1;
-
-
+.section-avis {
+    padding: 60px 5%; 
+    background-color: #ffffff;
 }
+
+.conteneur-caroussel {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 50px; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.fleche {
+    width: 40px; 
+    height: 40px; 
+    background-color: #f0f0f0; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fleche:hover {
+    background-color: #1a1a3a; 
+    transition: 3ms;
+}
+
+.fleche:hover img {
+    filter: brightness(0) invert(1);
+    transition: 0.3s; 
+}
+
+.carte-avis {
+    background-color: #ffffff; 
+    width: 600px;
+    padding: 40px; 
+    border-radius: 8px; 
+    box-shadow: 1px 4px 34px 0px #0000001A;
+    text-align: center; 
+}
+
+.etoiles {
+    color: #a83232;
+    font-size: 18px;
+    margin-bottom: 20px; 
+}
+
+.texte-temoignage {
+    font-size: 14px;
+    color: #444444; 
+    line-height: 1.6; 
+    margin-bottom: 30px; 
+}
+
+.auteur-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.cercle-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #dcdcdc; 
+    border-radius: 50%; 
+}
+
+.nom-auteur {
+    font-weight: bold;
+    font-size: 14px;
+    color: #1a1a3a;
+    text-align: left;
+}
+
+.sous-titre-auteur {
+    font-size: 12px;
+    color: #888888; 
+    text-align: left;
+}
+
+.bouton-rouge-centre2 {
+    background-color: #a32a3f;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration : none;
+}
+
+/*NINETH SECTION*/
