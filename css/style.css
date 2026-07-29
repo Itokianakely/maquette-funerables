@@ -126,11 +126,13 @@
 .btn-blanc {
     background-color: white;
     color: #1c2b4b;
+    text-decoration : none;
 }
 
 .btn-orange {
     background-color: #ffb800;
     color: white;
+    text-decoration : none;
 }
 
 /* FOURTH SECTION */
@@ -197,6 +199,7 @@
     margin-top: 40px;
     border-radius: 3px;
     cursor: pointer;
+    text-decoration : none;
 }
 
 /*FIFTH SECTION*/
@@ -351,6 +354,7 @@
     font-weight: bold;
     border-radius: 3px;
     font-size: 14px;
+    text-decoration : none;
 }
 
 /*EIGHTH SECTION*/
