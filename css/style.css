@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; 
+}
+/*FIRST SECTION*/
+.bandeau-bleu-fonce {
+    background-color: #1c2b4b; 
+    color: white;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: stretch; 
+    height: 35px;
+}
+
+.infos-heure{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding-left: 50px;
+    font-size: 12px;
+     white-space: nowrap; 
+
+}
+
+.infos-contact-haut {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 13px;
+    
+}
+
+.infos-contact-haut p {
+    font-size: 13px;
+    white-space: nowrap; 
+}
+
+.bouton-orange-top {
+    background-color: #ffb800;
+    color: #1c2b4b;
+    font-weight: bold;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/*SECOND SECTION*/
+.menu-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo h2 {
+    color: #000000;
+    font-size: 30px;
+}
+
+.liens-du-menu a {
+    text-decoration: none;
+    color: #1c2b4b;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.liens-du-menu a:hover {
+    color: #a32a3f; 
+}
+
+/*THIRD SECTION*/
+.section-image-hero {
+    background-color: white; 
+    background-image: url('../images/image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.voile-sombre {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.contenu-hero {
+    color: white;
+    max-width: 600px;
+}
+
+.contenu-hero h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.contenu-hero p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.les-deux-boutons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-blanc, .btn-orange {
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-blanc {
+    background-color: white;
+    color: #1c2b4b;
+}
+
+.btn-orange {
+    background-color: #ffb800;
+    color: white;
+}
+
+/* FOURTH SECTION */
+.section-cartes-grise {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.titre-centre {
+    color: #1c2b4b;
+    margin-bottom: 10px;
+}
+
+.sous-titre-centre {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.boite-des-3-cartes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.carte-blanche {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    flex: 1; 
+}
+
+.icone-image {
+    height: 45px; 
+    width: auto; 
+    margin-bottom: 20px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.texte-bordeaux {
+    color: black;
+}
+
+.carte-blanche h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+} 
+
+.carte-blanche p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}
+
+.bouton-rouge-centre {
+    background-color: #a32a3f;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*FIFTH SECTION*/
+.section-cremation-inhumation {
+    padding: 60px 20px;
+    background-color:white;
+    text-align: center;
+}
+
+.texte-intro-haut {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    color: #444;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.grise-deux-cartes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto 30px auto;
+}
+
+.carte-horizontale {
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+.image-carte {
+    width: 45%;
+    object-fit: cover;
+}
+
+.contenu-carte {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenu-carte h3 {
+    color: #1c2b4b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contenu-carte p {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.centre-bouton {
+    text-align: center;
+}
+
+/*SIXTH SECTION*/
+.section-service-sur-mesure {
+    padding: 80px 20px;
+    background-color: #f8f8f8;
+}
+
+.conteneur-flex-2 {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.colonne-image, .colonne-texte {
+    flex: 1;
+}
+
+.image-arrondie {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.colonne-texte h2 {
+    color: #1c2b4b;
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.colonne-texte p {
+    color: #444;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .grise-deux-cartes {
+        flex-direction: column;
+    }
+    
+    .conteneur-flex-2 {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/*SEVENTH SECTION*/
+
+
